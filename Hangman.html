@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HANG MAN by NOI</title>
+        <link href="hangman.css" rel="stylesheet">
+        <script src="hangman.js"></script>
+    </head>
+    <body>
+        <h2>WELLCOME TO HANGMAN GAME</h2>
+        <h3 style="text-align: center;">Player one insert the word and player two guess the word</h3>
+        <p style="text-align: center;">The first player please insert a word &ensp; &ensp; &ensp; &ensp; The second player please insert a letter</p>
+        <input type="password" id="in_word" style="align-content: center;"><button onclick="takeWord()">Insert word</button>
+        <input type="text" id="in_letter" style="align-items: center;"><button onclick="checkLetter()">Check the letter</button>
+        <h1 style="text-align: center;" id="new_word"></h1><h3 id = "explanation" style="text-align: center;"></h3>
+        <h3 id="letterExists" style="text-align: center;"></h3>
+        <div><center><img src="hgmpic/0.jpg" id="image" ></center></div>
+    </body>
+    
+</html>
+    

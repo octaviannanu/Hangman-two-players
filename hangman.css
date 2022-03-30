@@ -1,0 +1,66 @@
+html {
+    background-image: url("https://www.jimsmowing.com.au/wp-content/uploads/2020/02/Golf-Course-Grass-Jims-Mowing.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+ body {
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #acdbc1;
+    padding: 0 30px 30px 30px;
+    border: 3px solid black;
+ } 
+
+ input {
+   align-content: center;
+ }
+
+  img {
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #acdbc1;
+  }
+  
+  button {
+    align-items: center;
+    border-radius: 8px;
+    background-color: #4CAF50; /* Green */
+    border: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin:10px;
+  }
+  div {
+    align-content: center;
+    margin:  10px;
+  }
+  h2 {
+    margin: 1;
+    text-align: center;
+    padding: 30px 0;
+    text-shadow: 1px 1px 1px darkred;
+  }
+  
+  h3 {
+    margin: 1;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration-color: aqua;
+  }
+
+  html {
+    font-size: 14px;
+    font-family: "Tahoma";
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 1.5px;
+  }
